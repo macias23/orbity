@@ -22,14 +22,14 @@ public class Circuits {
             }
         }
         // Inicjalizacja zbioru i listy dla funkcji
-        HashSet<Integer> allFunctions = new HashSet<>();
+        HashSet<Integer> checkedFunctions = new HashSet<>();
         ArrayList<Integer> necessaryFunctions = new ArrayList<>();
 
         // Generowanie obwodów nierównoważnych względem permutacji wejść
         for (int function = 0; function < 256; function++) {
-            if (allFunctions.contains(function))
+            if (checkedFunctions.contains(function))
                 continue;
-            allFunctions.add(function);
+            checkedFunctions.add(function);
             necessaryFunctions.add(function);
 
             // Generowanie nowych funkcji na podstawie permutacji wejść
@@ -40,7 +40,7 @@ public class Circuits {
                 for (int i = 0; i < 8; i++) {
                     newFunction |= (function >> (7 - inputPermutations[p][i]) & 1) << (7 - i);
                 }
-                allFunctions.add(newFunction);
+                checkedFunctions.add(newFunction);
             }
         }
         // Wyświetlanie obwodów nierównoważnych
