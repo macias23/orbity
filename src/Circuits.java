@@ -22,15 +22,15 @@ public class Circuits {
             }
         }
         // Inicjalizacja zbioru i listy dla funkcji
-        HashSet<Integer> functions = new HashSet<>();
-        ArrayList<Integer> necessary = new ArrayList<>();
+        HashSet<Integer> allFunctions = new HashSet<>();
+        ArrayList<Integer> necessaryFunctions = new ArrayList<>();
 
         // Generowanie obwodów nierównoważnych względem permutacji wejść
         for (int function = 0; function < 256; function++) {
-            if (functions.contains(function))
+            if (allFunctions.contains(function))
                 continue;
-            functions.add(function);
-            necessary.add(function);
+            allFunctions.add(function);
+            necessaryFunctions.add(function);
 
             // Generowanie nowych funkcji na podstawie permutacji wejść
             for (int p = 0; p < inputPermutations.length; p++) {
@@ -40,17 +40,17 @@ public class Circuits {
                 for (int i = 0; i < 8; i++) {
                     newFunction |= (function >> (7 - inputPermutations[p][i]) & 1) << (7 - i);
                 }
-                functions.add(newFunction);
+                allFunctions.add(newFunction);
             }
         }
         // Wyświetlanie obwodów nierównoważnych
-        for (int i:necessary) {
+        for (int i:necessaryFunctions) {
             String circuit = Integer.toBinaryString(i);
             StringBuilder sb = new StringBuilder(circuit);
             while (sb.length()<8) sb.insert(0,0);
             System.out.println(sb.toString());
         }
         // Wyświetlanie liczby obwodów nierównoważnych
-        System.out.println("Liczba obwodów: " + necessary.size());
+        System.out.println("Liczba obwodów: " + necessaryFunctions.size());
     }
 }

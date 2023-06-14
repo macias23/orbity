@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5322b4e-2c50-4503-a57a-6b3bec571abf" name="Changes" comment="">
+    <list default="true" id="b5322b4e-2c50-4503-a57a-6b3bec571abf" name="Changes" comment="Comments in colorings">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Circus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Circuits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Circuits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Circuits.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
