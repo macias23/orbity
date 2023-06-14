@@ -15,7 +15,6 @@ public class Circus {
                 inputPermutations[i][n] = newIndex;
             }
         }
-        System.out.println(Arrays.deepToString(inputPermutations));
         HashSet<Integer> functions = new HashSet<>();
         ArrayList<Integer> necessary = new ArrayList<>();
         for (int function = 0; function < 256; function++) {
@@ -32,5 +31,11 @@ public class Circus {
             }
         }
         System.out.println(necessary.size());
+        for (int i:necessary) {
+            String circuit = Integer.toBinaryString(i);
+            StringBuilder sb = new StringBuilder(circuit);
+            while (sb.length()<8) sb.insert(0,0);
+            System.out.println(sb.toString());
+        }
     }
 }
