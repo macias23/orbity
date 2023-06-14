@@ -6,7 +6,7 @@ public class Colorings {
         // Generowanie wszystkich kombinacji cyfr 0,1 (odpowiadających kolorom) dla 8 elementów-wierzchołków sześcianu
         int[][] allCombinations = generateCombinations(8);
 
-        // Zdefiniowanie zestawu permutacji dla sześcianu wynikających z grupy obrotów.
+        // Zdefiniowanie zestawu permutacji dla sześcianu wynikających z grupy obrotów
         int[][][] cubePermutations = {{{1, 2, 3, 4}, {5, 6, 7, 8}},
                 {{1, 3}, {2, 4}, {5, 7}, {6, 8}},
                 {{1, 4, 3, 2}, {5, 8, 7, 6}},
