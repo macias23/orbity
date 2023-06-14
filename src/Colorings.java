@@ -32,7 +32,7 @@ public class Colorings {
     };
         ArrayList<int[]> uniqueCubeColorings = uniqueColoring(allCombinations,cubePermutations);
         printArrayList(uniqueCubeColorings);
-        System.out.println(uniqueCubeColorings.size());
+        System.out.println("Liczba kolorowań: " + uniqueCubeColorings.size());
 
     }
 

@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashSet;
 
-public class Circus {
+public class Circuits {
     public static void main(String[] args) {
         int[][] bitPermutations = {
                 {2, 0, 1}, {1, 2, 0}, {0, 1, 2}, {1, 0, 2}, {0, 2, 1}
@@ -30,12 +30,13 @@ public class Circus {
                 functions.add(newFunction);
             }
         }
-        System.out.println(necessary.size());
+
         for (int i:necessary) {
             String circuit = Integer.toBinaryString(i);
             StringBuilder sb = new StringBuilder(circuit);
             while (sb.length()<8) sb.insert(0,0);
             System.out.println(sb.toString());
         }
+        System.out.println("Liczba obwodów: " + necessary.size());
     }
 }
