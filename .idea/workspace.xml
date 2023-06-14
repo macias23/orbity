@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5322b4e-2c50-4503-a57a-6b3bec571abf" name="Changes" comment="Updates in printing">
-      <change beforePath="$PROJECT_DIR$/src/Colorings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Colorings.java" afterDir="false" />
+    <list default="true" id="b5322b4e-2c50-4503-a57a-6b3bec571abf" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Circus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Circus.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,16 +78,8 @@
       <workItem from="1686737860677" duration="1989000" />
       <workItem from="1686740283151" duration="1921000" />
       <workItem from="1686766966341" duration="193000" />
-      <workItem from="1686768298313" duration="1129000" />
+      <workItem from="1686768298313" duration="754000" />
     </task>
-    <task id="LOCAL-00001" summary="Updates in printing">
-      <created>1686769065207</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1686769065207</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,10 +95,6 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Updates in printing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updates in printing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
