@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5322b4e-2c50-4503-a57a-6b3bec571abf" name="Changes" comment="sout">
+    <list default="true" id="b5322b4e-2c50-4503-a57a-6b3bec571abf" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Circus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Circuits.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,14 +88,6 @@
       <workItem from="1686766966341" duration="193000" />
       <workItem from="1686768298313" duration="754000" />
     </task>
-    <task id="LOCAL-00001" summary="sout">
-      <created>1686769374195</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1686769374195</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,9 +103,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="sout" />
-    <option name="LAST_COMMIT_MESSAGE" value="sout" />
   </component>
 </project>
