@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class Colorings {
+public class Cube {
     public static void main(String[] args) {
         // Generowanie wszystkich kombinacji cyfr 0,1 (odpowiadających kolorom) dla 8 elementów-wierzchołków sześcianu
         int[][] allCombinations = generateCombinations(8);

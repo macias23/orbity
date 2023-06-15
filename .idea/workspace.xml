@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5322b4e-2c50-4503-a57a-6b3bec571abf" name="Changes" comment="Comments in colorings">
+    <list default="true" id="b5322b4e-2c50-4503-a57a-6b3bec571abf" name="Changes" comment="renaming again">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Circuits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Circuits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Colorings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cube.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,8 +59,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Colorings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Colorings" />
+    <configuration name="Cube" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Cube" />
       <module name="orbity" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -69,7 +69,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Circuits" />
-        <item itemvalue="Application.Colorings" />
+        <item itemvalue="Application.Cube" />
         <item itemvalue="Application.Circus" />
       </list>
     </recent_temporary>
@@ -87,7 +87,24 @@
       <workItem from="1686740283151" duration="1921000" />
       <workItem from="1686766966341" duration="193000" />
       <workItem from="1686768298313" duration="754000" />
+      <workItem from="1686778306511" duration="47000" />
+      <workItem from="1686820921297" duration="738000" />
     </task>
+    <task id="LOCAL-00001" summary="Renaming">
+      <created>1686776951060</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1686776951060</updated>
+    </task>
+    <task id="LOCAL-00002" summary="renaming again">
+      <created>1686777031139</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1686777031139</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,5 +120,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Renaming" />
+    <MESSAGE value="renaming again" />
+    <option name="LAST_COMMIT_MESSAGE" value="renaming again" />
   </component>
 </project>
